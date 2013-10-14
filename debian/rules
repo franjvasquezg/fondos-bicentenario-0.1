@@ -1,0 +1,13 @@
+#!/usr/bin/make -f
+%:
+	dh $@
+override_dh_build: 
+	dh_testdir
+	dh_auto_configure
+
+override_dh_auto_configure:
+	qmake -makefile -nocache "QMAKE_CFLAGS_RELEASE=-g -O2" "QMAKE_CXXFLAGS_RELEASE=-g -O2" QMAKE_LFLAGS_RELEASE=-Wl,-Bsymbolic-functions QMAKE_STRIP=: PREFIX=/usr
+
+override_dh_auto_build: 
+	lrelease Fondos-Bicentenario.pro -silent
+	$(make)

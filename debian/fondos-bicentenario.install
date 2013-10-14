@@ -1,0 +1,8 @@
+po/*.qm usr/share/qt4/translations/fondos-bicentenario
+fondos-bicentenario /usr/bin
+fondos-bicentenario2.png /usr/share/pixmaps
+fondos-bicentenario.png /usr/share/pixmaps
+fondos-bicentenario.desktop usr/share/applications
+backgrounds/1810/* /usr/share/fondos-bicentenario/backgrounds/1810/
+backgrounds/1811/* /usr/share/fondos-bicentenario/backgrounds/1811/
+res/* /usr/share/fondos-bicentenario/res/

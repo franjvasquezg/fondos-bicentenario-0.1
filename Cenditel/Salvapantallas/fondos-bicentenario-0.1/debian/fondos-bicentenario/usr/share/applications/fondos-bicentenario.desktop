@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Fondos de Pantalla del Bicentenario
+Comment=Fondos de pantalla del bicentenario
+Exec=/usr/bin/fondos-bicentenario
+Type=Application
+Icon=fondos-bicentenario
+StartupNotify=true
+Categories=Graphics
+X-Ubuntu-Gettext-Domain=fondos-bicentenario
+

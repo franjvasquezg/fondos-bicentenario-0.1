@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="/icons">
+    <file>fondos-bicentenario.png</file>
+    <file>fondos-bicentenario2.png</file>
+    <file>list-add.png</file>
+    <file>list-remove.png</file>
+  </qresource>
+  <qresource prefix="images">
+    <file>logo.jpg</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="80">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df name="fondos-bicentenario-0.1" root=".">
+      <df name="backgrounds">
+        <df name="1810">
+        </df>
+      </df>
+      <df name="debian">
+        <df name="source">
+        </df>
+      </df>
+      <df name="man">
+      </df>
+      <df name="po">
+      </df>
+      <in>helper.cpp</in>
+      <in>helper.h</in>
+      <in>main.cpp</in>
+      <in>moc_helper.cpp</in>
+      <in>moc_threadb.cpp</in>
+      <in>moc_widget.cpp</in>
+      <in>qrc_rc.cpp</in>
+      <in>threadb.cpp</in>
+      <in>threadb.h</in>
+      <in>ui_widget.h</in>
+      <in>widget.cpp</in>
+      <in>widget.h</in>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Fondos-Bicentenario.pro</itemPath>
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath>fondos-bicentenario</executablePath>
+          <ccTool>
+            <incDir>
+              <pElem>/usr/include/qt4/QtNetwork</pElem>
+              <pElem>/usr/include/gconf/2</pElem>
+              <pElem>/usr/include/qt4</pElem>
+              <pElem>/usr/include/glib-2.0</pElem>
+              <pElem>/usr/include/orbit-2.0</pElem>
+              <pElem>/usr/include/qt4/QtGui</pElem>
+              <pElem>.</pElem>
+              <pElem>/usr/lib/dbus-1.0/include</pElem>
+              <pElem>/usr/include/qt4/QtCore</pElem>
+              <pElem>/usr/lib/glib-2.0/include</pElem>
+              <pElem>/usr/include/dbus-1.0</pElem>
+              <pElem>/usr/share/qt4/mkspecs/linux-g++</pElem>
+            </incDir>
+            <preprocessorList>
+              <Elem>ORBIT2=1</Elem>
+              <Elem>QT_CORE_LIB</Elem>
+              <Elem>QT_GUI_LIB</Elem>
+              <Elem>QT_NETWORK_LIB</Elem>
+              <Elem>QT_NO_DEBUG</Elem>
+              <Elem>QT_SHARED</Elem>
+              <Elem>_REENTRANT</Elem>
+            </preprocessorList>
+          </ccTool>
+        </makeTool>
+      </makefileType>
+    </conf>
+  </confs>
+</configurationDescriptor>

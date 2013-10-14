@@ -1,0 +1,14 @@
+Source: fondos-bicentenario
+Section: gnome
+Priority: optional
+Maintainer: Luis Buenanyo <lbuenanyo@cenditel.gob.ve>, Joger Quintero <jquintero@cenditel.gob.ve>
+Build-Depends: debhelper (>= 8.0~), libgconf2-dev (>= 2.28), libqt4-dev (>= 4:4.6), libglib2.0-dev (>= 2.24)
+Standards-Version: 3.9.2
+Homepage: https://launchpad.net/cortina
+
+Package: fondos-bicentenario
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, gconf2 (>= 2.28) | libglib2.0-bin (>= 2.28)
+Description: Fondos de escritorio dinámicos con imágenes del salvapantallas bicentenario
+ Fondos-bicentenario cambia dinámicamente los fondos de escritorio con las distintas imágenes
+ del salvapantallas bicentenario.
